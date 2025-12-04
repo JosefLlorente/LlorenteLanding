@@ -151,6 +151,7 @@ body.light-mode .main-subtext {
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
 .scnd-btn{
@@ -162,6 +163,7 @@ body.light-mode .main-subtext {
     cursor: pointer;
     border-radius: 10px;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .image-section {
@@ -432,6 +434,9 @@ body.light-mode .footer {
     border-color: #3d8a3f !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 @media (max-width: 768px) {
     .highlights {
